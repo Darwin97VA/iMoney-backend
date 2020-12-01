@@ -1,0 +1,18 @@
+.disabled {
+    background: var(--color-shadow);
+}
+.disabled .label,
+.disabled .input {
+    background: none;
+    color: white;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
